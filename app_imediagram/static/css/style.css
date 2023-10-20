@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    gap: auto;
+}
+
+.logo {
+    color: #F9FBFC;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #0095F6;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    gap: 50px;
+    margin: 40px auto;
+}
+
+.forms-login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.imagem-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+form label {
+    display: block;
+    color: #F9FBFC;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 25px;
+    background-color: #1E1E1E;
+    border: 1px solid #4C4C4C;
+    border-radius: 4px;
+    outline: none;
+    color: #F9FBFC;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #0095F6;
+    color: #F9FBFC;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.125rem;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+form p {
+    color: #F9FBFC;
+    font-size: 1rem;
+}
+
+form p a {
+    color: #F9FBFC;
+}
+
+.enviar-foto {
+    width: 350px;
+    margin: 50px auto;
+    align-self: center;
+}
